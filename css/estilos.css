@@ -1,0 +1,54 @@
+h1{
+    background-color: aquamarine;
+    width: 80%;
+    color: green;
+    height: 100px;
+    border-style: solid;
+    /*solid; linea continua
+        dashed: linea segmentada
+        double: linea doble
+        */
+    border-color: tomato;
+    /*border-color: color al borde*/
+    border-width: 30px;
+    /*borde-width: le da un ancho al borde*/
+    border-top-color:yellow;
+    border-bottom-color: yellow;
+
+/*
+        EN SOLO UNA LINEA TODOO
+
+    border: 2px double red;
+
+
+
+*/
+
+}
+
+a{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    color:white;
+    border: 1px solid yellow;
+    border-top-left-radius: 15px;
+    /*reedondea la esquina top left*/
+    border-bottom-right-radius: 15px;
+
+    border-radius: 15px;
+    /*redondea todas las esquinas*/
+
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 25px;
+
+    box-shadow: 5px 5px 2px 1px green;
+/*  sombra  
+box-shadow: horizontal vertical difuminado expansion y color
+     */
+    /* box-shadow: 5px 5px hotpink inset;
+     con inset de crea sombra interna*/
+
+}
